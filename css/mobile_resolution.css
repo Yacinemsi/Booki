@@ -1,0 +1,186 @@
+@media only screen and (max-width: 768px) {
+  /* header */
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  header img {
+    object-fit: contain;
+    margin-top: 5px;
+  }
+  nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-activites {
+    width: 50%;
+    padding: 0;
+  }
+  nav a {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: #f2f2f2 solid 2px;
+  }
+  .nav-hebergement {
+    width: 50%;
+  }
+
+  nav a:hover {
+    border-top: none;
+    border-bottom: 2px solid;
+    color: #0065fc;
+  }
+
+  /* Main */
+  h1 {
+    margin-left: 20px;
+    padding-right: 10%;
+    font-size: 21px;
+  }
+  h1 + p {
+    margin-left: 20px;
+    font-size: 15.5px;
+  }
+
+  /* Icon de barre de recherche + barre de recherche + boutton de recherche */
+  .search-bar {
+    margin-left: -30px;
+    margin-top: 15px;
+  }
+
+  /* Barre de recherche*/
+  #pseudo {
+    width: 250px;
+  }
+
+  /* Bouton de recherche */
+  button {
+    font-size: 0;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: -20px;
+  }
+  .fa-solid.fa-magnifying-glass {
+    color: white;
+    position: absolute;
+    margin-left: -50px;
+    display: none;
+    font-size: 20px;
+    display: contents;
+  }
+
+  /* Filtres */
+  .filter {
+    flex-wrap: wrap;
+  }
+  .filter__p {
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 20px;
+  }
+  .filter-EcoFaRo {
+    width: 177px;
+    margin: 0 0 10px 10px;
+  }
+  .family {
+    text-align: center;
+    padding-left: 10px;
+  }
+  .background-color-blue {
+    margin-right: 130px;
+  }
+  .filter-animals {
+    width: 220px;
+    margin: 0 0 10px 10px;
+  }
+  .info-sous-filtre {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  /* Partie section comprenant Hébergement et Les plus populaires */
+  .bloc-article-aside {
+    flex-direction: column-reverse;
+  }
+  aside {
+    border-radius: 0;
+    width: 110%;
+    margin-left: -10px;
+  }
+  article {
+    width: 110%;
+    margin-left: -10px;
+    border-radius: 0;
+    background-color: white;
+  }
+  .header_aside h2 {
+    font-size: 23px;
+    margin-left: -20px;
+  }
+  article h2 {
+    font-size: 23px;
+    margin-left: -23px;
+  }
+  .main-bloc {
+    margin-left: -10px;
+  }
+  article > div {
+    flex-direction: column;
+  }
+  .card-article {
+    width: 100%;
+    margin-left: -10px;
+  }
+  .card-article:hover {
+    transform: scale(1.04);
+  }
+  .afficher-plus {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .card-aside:hover {
+    transform: scale(1.04);
+  }
+  /* Mise en place de la partie activités à Marseille */
+  .card-activite {
+    flex-direction: column;
+    margin: 0 10px 0 10px;
+  }
+  #activites > h2 {
+    margin: 20px 0 30px 15px;
+    font-size: 23px;
+  }
+  .card-large {
+    width: 100%;
+    margin: 0 0 25px 0px;
+  }
+  .card-large > img {
+    height: 130px;
+  }
+  .bloc-card-small {
+    width: 100%;
+  }
+  .card-small {
+    margin-bottom: 25px;
+  }
+  /* Integration du footer */
+  footer {
+    height: 420px;
+    padding-top: 20px;
+  }
+  .bloc-list {
+    flex-direction: column;
+    margin: 0 0 0 20px;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  .list a {
+    font-size: 16px;
+  }
+}
