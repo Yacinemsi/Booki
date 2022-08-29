@@ -9,6 +9,9 @@ html {
 body {
   margin: auto;
 }
+img {
+  object-fit: cover;
+}
 /*Header*/
 header {
   display: flex;
@@ -215,7 +218,7 @@ article h2 {
   transform: scale(1.1);
 }
 .card-article img {
-  height: 100px;
+  height: 110px;
   width: 100%;
   border-radius: 20px 20px 0 0;
   border: 1px solid white;
@@ -230,7 +233,7 @@ article > div {
   padding: 0 30px 0 30px;
 }
 .card-article h3 {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: -10px;
   width: 90%;
 }
@@ -240,8 +243,9 @@ article > div {
   width: 90%;
 }
 .star {
-  margin-bottom: 5px;
   width: 90%;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 .text-under-img {
   width: 100%;
@@ -258,7 +262,9 @@ article > div {
   text-decoration: none;
   color: black;
   font-weight: 600;
-  margin-left: 40px;
+  margin-left: 50px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 /* Mise en place des card de l'aside */
@@ -268,12 +274,10 @@ aside {
   width: 30%;
   margin-right: 30px;
   border-radius: 20px;
-  padding-bottom: 30px;
   padding-left: 30px;
 }
 .header_aside {
   width: 100%;
-  height: 17%;
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
@@ -285,9 +289,11 @@ aside {
 }
 .header_aside > i {
   padding-right: 40px;
+  padding-top: 10px;
+  color: black;
 }
-.fa-star {
-  padding-top: 20px;
+.star-aside.fa-star {
+  padding-top: 0px;
   color: black;
 }
 .card-aside {
@@ -296,39 +302,48 @@ aside {
   border: 2px solid white;
   border-radius: 20px;
   width: 90%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   box-shadow: grey 1px 1px 8px;
+  height: 140px;
 }
-.card-aside:hover {
-  transform: scale(1.1);
+.img_card_populaire {
+  width: 60%;
 }
-.card-aside img {
-  height: 120px;
-  width: 185px;
+.img_card_populaire > img {
+  height: 100%;
+  width: 100%;
   border-radius: 20px 0 0 20px;
   border: 1px solid white;
   object-fit: cover;
 }
-.card-aside.text-sous-img {
+.card-aside:hover {
+  transform: scale(1.1);
+}
+.card-aside > .text-under-img {
+  width: 100%;
+  margin-left: 15px;
+}
+.h3-card-aside {
   width: 100%;
 }
-.card__aside-h3 {
-  font-size: 14px;
-  margin-bottom: -10px;
+.h3-card-aside > h3 {
+  font-size: 16px;
+  margin-bottom: -8px;
 }
 .card__aside-p {
-  font-size: 12px;
-}
-#soleil-du-matin {
-  width: 120px;
-}
-#au-coeur-de-eau {
-  width: 120px;
-}
-.main-bloc {
-  margin-top: 20px;
+  font-size: 14px;
 }
 
+.main-bloc {
+  margin-top: 10px;
+}
+.star-aside {
+  margin-top: 30px;
+  position: relative;
+}
+.star-aside i {
+  font-size: 12px;
+}
 /*Mise en place de la section activité à Marseille*/
 #activites {
   width: 100%;
@@ -381,6 +396,21 @@ aside {
   font-weight: 600;
 }
 
+#card-pomegues > img {
+  height: 170px;
+}
+#card-frioul {
+  height: 30.5%;
+}
+#card-frioul > img {
+  height: 98px;
+}
+#card-notre-dame > img {
+  height: 110px;
+}
+#card-longchamp > img {
+  height: 157px;
+}
 /* Intégration du footer */
 footer {
   background-color: #f2f2f2;

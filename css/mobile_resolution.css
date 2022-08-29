@@ -146,6 +146,9 @@
   .card-aside:hover {
     transform: scale(1.04);
   }
+  .card-aside {
+    width: 90%;
+  }
   /* Mise en place de la partie activités à Marseille */
   .card-activite {
     flex-direction: column;
