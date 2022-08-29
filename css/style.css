@@ -212,7 +212,7 @@ article h2 {
   position: inherit;
   width: 30%;
   margin-bottom: 40px;
-  box-shadow: grey 1px 1px 8px;
+  box-shadow: #d9d9d9 1px 1px 8px;
 }
 .card-article:hover {
   transform: scale(1.1);
@@ -256,7 +256,7 @@ article > div {
   font-size: 12px;
 }
 .grey-star i {
-  color: #f2f2f2;
+  color: #d9d9d9;
 }
 .afficher-plus {
   text-decoration: none;
@@ -293,7 +293,7 @@ aside {
   color: black;
 }
 .star-aside.fa-star {
-  padding-top: 0px;
+  padding-top: 15px;
   color: black;
 }
 .card-aside {
@@ -303,7 +303,7 @@ aside {
   border-radius: 20px;
   width: 90%;
   margin-bottom: 40px;
-  box-shadow: grey 1px 1px 8px;
+  box-shadow: #d9d9d9 2px 2px 8px;
   height: 140px;
 }
 .img_card_populaire {
@@ -329,6 +329,7 @@ aside {
 .h3-card-aside > h3 {
   font-size: 16px;
   margin-bottom: -8px;
+  margin-right: 40px;
 }
 .card__aside-p {
   font-size: 14px;
@@ -338,7 +339,7 @@ aside {
   margin-top: 10px;
 }
 .star-aside {
-  margin-top: 30px;
+  margin-top: 40px;
   position: relative;
 }
 .star-aside i {
@@ -365,7 +366,7 @@ aside {
   background-color: white;
   display: flex;
   flex-direction: column;
-  box-shadow: grey 1px 1px 10px;
+  box-shadow: #d9d9d9 1px 1px 10px;
 }
 .card-large > img {
   height: 350px;
@@ -388,7 +389,7 @@ aside {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-  box-shadow: grey 1px 1px 10px;
+  box-shadow: #d9d9d9 1px 1px 10px;
 }
 .card-activite h3 {
   font-size: 13px;
