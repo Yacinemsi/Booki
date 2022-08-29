@@ -1,0 +1,113 @@
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* Agencement des filtres */
+  .filter > .filter {
+    flex-wrap: wrap;
+  }
+  .filter__p {
+    margin-right: 0;
+  }
+  /* Agencement des bloc article et aside */
+  .bloc-article-aside {
+    flex-direction: column;
+  }
+  article {
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+  aside {
+    background-color: white;
+    width: 100%;
+    padding-left: 0;
+    height: 400px;
+  }
+  .main-bloc {
+    display: flex;
+    margin: 10px 30px 10px 30px;
+  }
+  .header_aside > h2 {
+    margin-left: 30px;
+  }
+  .card-aside {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 14px;
+  }
+  .img_card_populaire > img {
+    height: 120px;
+    width: 166%;
+    border-radius: 20px 20px 0 0;
+  }
+  .card-aside > .text-under-img {
+    width: 100%;
+    margin-left: 8px;
+  }
+  .h3-card-aside > h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .card-article h3 {
+    font-size: 14px;
+  }
+  .star-aside {
+    margin-top: 0px;
+    margin-bottom: 7px;
+  }
+  .card__aside-p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* Agencement de la partie activité à Marseille */
+  #activites > h2 {
+    font-size: 20px;
+    margin: 0px 0 30px 40px;
+  }
+  .card-activite {
+    flex-direction: column;
+  }
+  .bloc-card-small {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+  }
+  .card-small {
+    width: 100%;
+  }
+  .card-large {
+    width: 100%;
+    margin: 0 30px 30px 10px;
+    height: 400px;
+  }
+  #card-frioul {
+    height: 300px;
+    margin-left: 30px;
+  }
+  #card-frioul > img {
+    height: 250px;
+  }
+  #card-pomegues {
+    height: 300px;
+  }
+  #card-pomegues > img {
+    height: 250px;
+  }
+  #card-notre-dame {
+    height: 300px;
+    margin-top: 10px;
+  }
+  #card-notre-dame > img {
+    height: 250px;
+  }
+  #card-longchamp {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #card-longchamp > img {
+    height: 250px;
+  }
+}
