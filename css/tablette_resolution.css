@@ -110,4 +110,9 @@
   #card-longchamp > img {
     height: 250px;
   }
+  /* Footer */
+  .bloc-list {
+    position: relative;
+    left: 130px;
+  }
 }

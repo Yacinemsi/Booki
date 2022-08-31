@@ -109,12 +109,12 @@
   }
   aside {
     border-radius: 0;
-    width: 110%;
-    margin-left: -10px;
+    width: 100%;
+    margin-left: 0px;
   }
   article {
-    width: 110%;
-    margin-left: -10px;
+    width: 100%;
+    margin-left: 0px;
     border-radius: 0;
     background-color: white;
   }
@@ -131,10 +131,10 @@
   }
   article > div {
     flex-direction: column;
+    padding: 0 10px 0 10px;
   }
   .card-article {
-    width: 96%;
-    margin-left: -10px;
+    width: 100%;
   }
   .card-article:hover {
     transform: scale(1.04);
@@ -147,7 +147,7 @@
     transform: scale(1.04);
   }
   .card-aside {
-    width: 90%;
+    width: 95%;
   }
   /* Mise en place de la partie activités à Marseille */
   .card-activite {
