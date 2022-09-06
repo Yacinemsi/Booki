@@ -131,7 +131,7 @@
   }
   article > div {
     flex-direction: column;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
   }
   .card-article {
     width: 100%;
@@ -170,6 +170,12 @@
   }
   .card-small {
     margin-bottom: 25px;
+  }
+  #card-frioul > img {
+    height: 130px;
+  }
+  #card-pomegues > img {
+    height: 130px;
   }
   /* Integration du footer */
   footer {
