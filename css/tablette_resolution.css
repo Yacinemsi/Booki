@@ -1,7 +1,11 @@
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 995px) {
   /* Agencement des filtres */
-  .filter > .filter {
+  .filter > .filters {
     flex-wrap: wrap;
+  }
+  .filter {
+    position: relative;
+    right: 10px;
   }
   .filter__p {
     margin-right: 0;

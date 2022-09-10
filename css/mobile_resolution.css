@@ -49,21 +49,21 @@
 
   /* Icon de barre de recherche + barre de recherche + boutton de recherche */
   .search-bar {
-    margin-left: -30px;
+    margin-left: -35px;
     margin-top: 15px;
   }
 
   /* Barre de recherche*/
   #pseudo {
-    width: 250px;
+    width: 200px;
   }
 
   /* Bouton de recherche */
   button {
     font-size: 0;
-    width: 50px;
+    width: 60px;
     border-radius: 15px;
-    margin-left: -20px;
+    margin-left: -8px;
   }
   .fa-solid.fa-magnifying-glass {
     color: white;
@@ -75,6 +75,10 @@
   }
 
   /* Filtres */
+  .filters {
+    flex-wrap: wrap;
+    width: 100%;
+  }
   .filter {
     flex-wrap: wrap;
   }
@@ -127,7 +131,8 @@
     margin-left: -23px;
   }
   .main-bloc {
-    margin-left: -10px;
+    margin-left: -8px;
+    margin-right: 7px;
   }
   article > div {
     flex-direction: column;
