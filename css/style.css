@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
 }
 header img {
-  height: 50px;
+  height: 20px;
   margin: 40px 0 0 50px;
 }
 
@@ -165,9 +165,9 @@ button {
 }
 .filter-animals:hover {
   border: 2px solid #0065fc;
-  box-shadow: 0px 2px 0 #0065fc;
+
   cursor: pointer;
-  transform: scale(1.1);
+  background-color: #deebff;
 }
 .filter-animals > p {
   font-weight: 600;
@@ -175,9 +175,9 @@ button {
 }
 .filter-EcoFaRo:hover {
   border: 2px solid #0065fc;
-  box-shadow: 0px 2px 0 #0065fc;
+
   cursor: pointer;
-  transform: scale(1.1);
+  background-color: #deebff;
 }
 
 /* Sous-titre d'info */
@@ -299,9 +299,8 @@ aside {
   padding-top: 10px;
   color: black;
 }
-.star-aside.fa-star {
-  padding-top: 15px;
-  color: black;
+.fa-solid.fa-chart-line {
+  color: #0065fc;
 }
 .card-aside {
   background-color: white;
@@ -359,15 +358,15 @@ aside {
 .card-activite {
   display: flex;
   justify-content: space-around;
-  margin: 10px 40px 0 20px;
+  margin: 10px 20px 0 20px;
 }
 #activites > h2 {
   font-size: 20px;
   margin: 50px 0 20px 60px;
 }
 .card-large {
-  width: 20%;
-  margin: 0px 20px 70px 20px;
+  width: 22%;
+  margin: 0px 30px 70px 30px;
   border-radius: 20px;
   background-color: white;
   display: flex;
@@ -380,49 +379,19 @@ aside {
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
-.bloc-card-small {
-  width: 23%;
-}
-.card-small > img {
-  height: 133px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
-.card-small {
-  border-radius: 20px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 40px;
-  box-shadow: #d9d9d9 1px 1px 10px;
-}
+
 .card-activite h3 {
   font-size: 13px;
   padding-left: 15px;
   font-weight: 600;
 }
 
-#card-pomegues > img {
-  height: 170px;
-}
-#card-frioul {
-  height: 30.5%;
-}
-#card-frioul > img {
-  height: 98px;
-}
-#card-notre-dame > img {
-  height: 110px;
-}
-#card-longchamp > img {
-  height: 157px;
-}
 /* Intégration du footer */
 footer {
   background-color: #f2f2f2;
   height: 200px;
   padding-top: 30px;
+  margin: 0 45px;
 }
 .bloc-list {
   display: flex;

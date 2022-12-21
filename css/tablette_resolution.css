@@ -1,8 +1,6 @@
 @media only screen and (min-width: 769px) and (max-width: 995px) {
   /* Agencement des filtres */
-  .filter > .filters {
-    flex-wrap: wrap;
-  }
+
   .filter {
     position: relative;
     right: 10px;
@@ -13,22 +11,24 @@
   /* Agencement des bloc article et aside */
   .bloc-article-aside {
     flex-direction: column;
+    margin: 20px 70px 0 70px;
   }
   article {
     width: 100%;
     margin-left: 0px;
-    border-radius: 0;
+    border-radius: 20px;
     margin-bottom: 20px;
   }
   aside {
-    background-color: white;
     width: 100%;
     padding-left: 0;
-    height: 400px;
+    height: 260px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   .main-bloc {
     display: flex;
-    margin: 10px 30px 10px 30px;
+    margin: 10px 20px;
   }
   .header_aside > h2 {
     margin-left: 30px;
@@ -36,14 +36,15 @@
   .card-aside {
     background-color: white;
     display: flex;
-    flex-direction: column;
     height: 100%;
-    margin: 14px;
+    margin: 0 10px 0 10px;
+    width: 260px;
   }
   .img_card_populaire > img {
-    height: 120px;
-    width: 166%;
-    border-radius: 20px 20px 0 0;
+    height: 130px;
+    width: 100%;
+    border-radius: 20px 0px 0 20px;
+    margin-bottom: -2px;
   }
   .card-aside > .text-under-img {
     width: 100%;
@@ -57,63 +58,37 @@
     font-size: 14px;
   }
   .star-aside {
-    margin-top: 0px;
+    margin-top: 33px;
     margin-bottom: 7px;
   }
   .card__aside-p {
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-bottom: 5px;
   }
 
   /* Agencement de la partie activité à Marseille */
   #activites > h2 {
     font-size: 20px;
-    margin: 0px 0 30px 40px;
+    margin: 0px 0 30px 70px;
   }
   .card-activite {
-    flex-direction: column;
+    flex-direction: row;
+    margin: 10px 51px 40px 50px;
   }
-  .bloc-card-small {
-    display: flex;
-    width: 100%;
-    margin: 10px;
-  }
-  .card-small {
-    width: 100%;
-  }
+
   .card-large {
     width: 100%;
-    margin: 0 30px 30px 10px;
-    height: 400px;
+    margin: 0 25px 30px 25px;
+    height: 260px;
   }
-  #card-frioul {
-    height: 300px;
-    margin-left: 30px;
+  .card-large > h3 {
+    height: 50px;
   }
-  #card-frioul > img {
-    height: 250px;
+  #pomegue {
+    height: 205px;
   }
-  #card-pomegues {
-    height: 300px;
-  }
-  #card-pomegues > img {
-    height: 250px;
-  }
-  #card-notre-dame {
-    height: 300px;
-    margin-top: 10px;
-  }
-  #card-notre-dame > img {
-    height: 250px;
-  }
-  #card-longchamp {
-    margin-top: 10px;
-    margin-left: 30px;
-  }
-  #card-longchamp > img {
-    height: 250px;
-  }
+
   /* Footer */
   .bloc-list {
     position: relative;
